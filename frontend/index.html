@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enhanced To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="todo-app">
+        <input type="text" id="new-task" placeholder="Add a new task">
+        <select id="priority">
+            <option value="High">High</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <button onclick="addTask()">Add Task</button>
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+#todo-app {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.task-item.completed {
+    background-color: #f0f0f0;
+    text-decoration: line-through;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+.priority {
+    font-size: 0.8em;
+    color: #666;
+}
